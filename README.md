@@ -46,7 +46,23 @@ npm run dev
 npm run tauri build
 ```
 
-Артефакты появятся в `src-tauri/target/release/bundle/` (`.app`, `.dmg` на macOS и т.д.).
+Артефакты появятся в `src-tauri/target/release/bundle/` (`.dmg` на macOS, `.msi` / NSIS `.exe` на Windows).
+
+## CI/CD
+
+GitHub Actions собирают приложение для **macOS** (Apple Silicon и Intel) и **Windows**:
+
+| Workflow | Когда запускается | Результат |
+|----------|-------------------|-----------|
+| `build.yml` | push/PR в `main` или `master`, ручной запуск | артефакты сборки в Actions |
+| `release.yml` | push тега `v*` (например `v0.1.0`) | GitHub Release с установщиками |
+
+Релиз:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
 
 ## Иконки приложения
 
