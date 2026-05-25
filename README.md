@@ -89,12 +89,12 @@ npm run tauri icon public/web-app-manifest-512x512.png
 
 ## Установка готовой сборки
 
-Скачать **v0.1.1**:
+Скачать **v1.0.1**:
 
-* [Windows (setup.exe)](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.0/Clamp.Calculator_1.0.0_x64-setup.exe)
-* [Windows (MSI)](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.0/Clamp.Calculator_1.0.0_x64_en-US.msi)
-* [macOS Apple Silicon](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.0/Clamp.Calculator_1.0.0_aarch64.dmg)
-* [macOS Intel](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.0/Clamp.Calculator_1.0.0_x64.dmg)
+* [Windows (setup.exe)](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.1/Clamp.Calculator_1.0.1_x64-setup.exe)
+* [Windows (MSI)](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.1/Clamp.Calculator_1.0.1_x64_en-US.msi)
+* [macOS Apple Silicon](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.1/Clamp.Calculator_1.0.1_aarch64.dmg)
+* [macOS Intel](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/download/v1.0.1/Clamp.Calculator_1.0.1_x64.dmg)
 
 Все версии: [Releases](https://github.com/OlegKrechkovskiy/clamp-calculate-tauri/releases/latest)
 
