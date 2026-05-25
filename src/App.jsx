@@ -1,4 +1,4 @@
-import Example from '@/components/Example/Example';
+// import Example from '@/components/Example/Example';
 import ClampFunction from '@/components/ClampFunction/ClampFunction';
 import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher';
 
@@ -7,7 +7,7 @@ function App() {
     <div>
       <LanguageSwitcher />
       <ClampFunction />
-      <Example />
+      {/* <Example /> */}
     </div>
   );
 }

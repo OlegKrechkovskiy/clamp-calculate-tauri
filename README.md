@@ -1,10 +1,10 @@
 # Clamp Calculator
 
-Десктопное приложение для расчёта CSS-функции [`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp): размеры шрифта, отступы и другие значения с плавным масштабированием между минимальной и максимальной шириной viewport.
+Десктопное приложение для расчёта CSS-функции `[clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)`: размеры шрифта, отступы и другие значения с плавным масштабированием между минимальной и максимальной шириной viewport.
 
 Собрано на **Tauri 2** + **React** + **Vite**. Веб-версия проекта: [clamp-calculator](https://github.com/OlegKrechkovskiy/clamp-calculator).
 
-![Превью калькулятора](public/preview/clamp.gif)
+![пример](./public/preview/clamp.gif)
 
 ## Возможности
 
@@ -52,10 +52,12 @@ npm run tauri build
 
 GitHub Actions собирают приложение для **macOS** (Apple Silicon и Intel) и **Windows**:
 
-| Workflow | Когда запускается | Результат |
-|----------|-------------------|-----------|
-| `build.yml` | push/PR в `main` или `master`, ручной запуск | артефакты сборки в Actions |
-| `release.yml` | push тега `v*` (например `v0.1.0`) | GitHub Release с установщиками |
+
+| Workflow      | Когда запускается                            | Результат                      |
+| ------------- | -------------------------------------------- | ------------------------------ |
+| `build.yml`   | push/PR в `main` или `master`, ручной запуск | артефакты сборки в Actions     |
+| `release.yml` | push тега `v`* (например `v0.1.0`)           | GitHub Release с установщиками |
+
 
 Релиз:
 

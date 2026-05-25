@@ -39,22 +39,22 @@
 }
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --text_color: rgba(33, 53, 71, 1.0);
-    --text_color_reverse: rgba(242,243,244,1.0);
-    --acc_text: color-mix(in srgb, black 70%, var(--text_color));
-    --background: rgba(242,243,244,1.0);
-    --background-reverse: rgba(33, 53, 71, 1.0);
-    --button_hover:color-mix(in srgb, var(--primary_blue) 70%, #ffffff);
-    --filter_invert: invert(0);
-  }
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     --text_color: rgba(33, 53, 71, 1.0);
+//     --text_color_reverse: rgba(242,243,244,1.0);
+//     --acc_text: color-mix(in srgb, black 70%, var(--text_color));
+//     --background: rgba(242,243,244,1.0);
+//     --background-reverse: rgba(33, 53, 71, 1.0);
+//     --button_hover:color-mix(in srgb, var(--primary_blue) 70%, #ffffff);
+//     --filter_invert: invert(0);
+//   }
 
-  a:hover {
-    color: #747bff;
-  }
+//   a:hover {
+//     color: #747bff;
+//   }
 
-  button {
-    background-color: rgba(249, 249, 249, 1.0);
-  }
-}
+//   button {
+//     background-color: rgba(249, 249, 249, 1.0);
+//   }
+// }
