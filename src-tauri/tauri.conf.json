@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "clamp-calculate",
+  "productName": "Clamp Calculator",
   "version": "0.1.0",
   "identifier": "com.olegkrechkovskiy.clamp-calculate",
   "build": {
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "clamp-calculate",
-        "width": 800,
-        "height": 600
+        "title": "Clamp Calculator",
+        "width": 960,
+        "height": 800,
+        "minWidth": 640,
+        "minHeight": 480
       }
     ],
     "security": {

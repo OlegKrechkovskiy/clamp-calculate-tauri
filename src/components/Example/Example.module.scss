@@ -1,0 +1,116 @@
+.wrapper {
+  padding: 0 0 100px;
+}
+
+.block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: clamp(18.75rem, calc(1.5169rem + 61.4154vw), 38.75rem);
+  height: clamp(13.75rem, calc(12.2115rem + 7.6923vw), 16.875rem);
+  margin: 1rem auto 0;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.74);
+  background-color: rgba(46,66,77,1.0);
+  font-size: clamp(12px, calc(8.4118px + 1.0588vw), 20px);
+  border-radius: clamp(6px, calc(2.5714px + 0.8571vw), 12px);
+
+  & * {
+    font-size: clamp(12px, calc(8.4118px + 1.0588vw), 20px);
+  }
+
+  &-title {
+    font-size: clamp(14px, calc(10.5714px + 0.8571vw), 20px);
+    text-align: center;
+
+    > small {
+      text-align: justify;
+    }
+  }
+
+  &-info {
+    // max-width: clamp(229px, calc(142.7143px + 21.5714vw), 380px);
+    // width: 100%;
+    // margin-top: 15px;
+    font-size: clamp(12px, calc(8.4118px + 1.0588vw), 20px);
+  }
+
+  .block-width {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: auto;
+    min-width: 190px;
+    height: auto;
+    padding: 0 10px;
+    color: #f0da8ad8;
+    background-color: rgba(46,66,77,1.0);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+  }
+
+  .block-height {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: auto;
+    min-width: 190px;
+    height: auto;
+    padding: 10px 0;
+    color: #03fcff;
+    background-color: rgba(46,66,77,1.0);
+    // text-align: center;
+    z-index: 10;
+  }
+
+  .border-radius {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+  }
+
+  .line-block-width {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 98%;
+    height: 1px;
+    background: #f0da8a;
+    transform: translate(-50%, -50%);
+  }
+
+  .line-block-height {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 1px;
+    height: 98%;
+    background: #03fcff;
+    transform: translate(-50%, -50%);
+  }
+
+  .line-bor-radius {
+    position: absolute;
+    bottom: 19px;
+    right: 4px;
+    width: 41px;
+    height: 1px;
+    background: white;
+    transform: rotate(38deg);
+  }
+}
+
+.example {
+  margin-top: 100px;
+  border-radius: 6px;
+  // box-shadow: 0 0 20px 1px rgb(50, 96, 204);
+  overflow: hidden;
+
+  &-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+}
